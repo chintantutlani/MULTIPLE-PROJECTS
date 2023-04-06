@@ -1,0 +1,31 @@
+{
+  "name": "leetcode-site-generator",
+  "version": "0.2.0",
+  "main": "./src/download.js",
+  "bin": {
+    "leetcode-site": "./src/cli.js"
+  },
+  "repository": "https://github.com/beizhedenglong/leetcode-site-generator.git",
+  "author": "Victor Wang <wang_shaojie@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "all": "0.0.0",
+    "axios": "^0.18.0",
+    "commander": "^2.20.0",
+    "enquirer": "^2.3.0",
+    "graphql-request": "^1.8.2",
+    "inquirer": "^7.3.3",
+    "node-fs-extra": "^0.8.2",
+    "ora": "^3.4.0",
+    "puppeteer": "^5.3.0",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.1",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
